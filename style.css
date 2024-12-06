@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.key {
+  width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%;
+  color: black;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.equal {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+.key:hover,
+.equal:hover {
+  box-shadow: 0 0 10px rgb(253, 253, 253);
+}
+
+.special {
+  background-color: orange;
+  font-weight: 500;
+}
+
+.equal {
+  background-color: rgb(255, 123, 0);
+}
